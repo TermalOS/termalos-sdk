@@ -25,6 +25,14 @@ Full narrative guide and API overview: **[termalos.com/developers](https://terma
 
 Each example is self-contained and independent - start from whichever is closest to what you want.
 
+## Feedback &amp; support
+
+- 🐞 Found a bug? [Open an issue](https://github.com/TermalOS/feedback/issues/new/choose).
+- 💡 Have an idea? [Request a feature](https://github.com/TermalOS/feedback/issues/new/choose).
+- 💬 A question? Head to [Discussions](https://github.com/TermalOS/feedback/discussions).
+
+Security issue? Report it privately via the [security policy](https://github.com/TermalOS/.github/blob/main/SECURITY.md), never in a public issue.
+
 ## License
 
 All example apps and documentation in this repository are released under the **[MIT License](LICENSE)** -
