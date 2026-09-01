@@ -1,0 +1,14 @@
+html, body { height: 100%; }
+.td { padding: 18px; font-family: system-ui, sans-serif; color: #e6edf3; background: #0e1117; min-height: 100vh; box-sizing: border-box; }
+h2 { margin: 0 0 14px; font-size: 18px; }
+.td-add { display: flex; gap: 8px; margin-bottom: 14px; }
+.td-add input { flex: 1; padding: 9px 12px; border: 1px solid #2a323d; border-radius: 8px; background: #06090d; color: #e6edf3; font-size: 14px; }
+.td-add button { padding: 9px 14px; border: 0; border-radius: 8px; background: #febc2e; color: #241a02; font-weight: 600; cursor: pointer; }
+.td-list { list-style: none; margin: 0; padding: 0; }
+.td-item { display: flex; align-items: center; gap: 10px; padding: 10px; border: 1px solid #1d242d; border-radius: 8px; margin-bottom: 6px; background: #141a22; }
+.td-item.done .td-text { text-decoration: line-through; color: #6b7480; }
+.td-item input[type=checkbox] { width: 17px; height: 17px; cursor: pointer; }
+.td-text { flex: 1; font-size: 14px; word-break: break-word; }
+.td-x { border: 0; background: transparent; color: #6b7480; cursor: pointer; font-size: 18px; line-height: 1; }
+.td-x:hover { color: #f85149; }
+.td-foot { margin-top: 14px; color: #7d8794; font-size: 12px; }

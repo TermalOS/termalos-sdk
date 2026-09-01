@@ -1,0 +1,17 @@
+{
+  "key": "example-files",
+  "name": "File Explorer",
+  "version": "1.0.0",
+  "author": "Termal OS",
+  "category": "utilities",
+  "description": "Open a file or a folder chosen by the user, list it, and open items in the desktop.",
+  "tags": ["files", "picker", "example"],
+  "disclaimer": "This is an example app.\n\nIt only reads files and folders that you explicitly pick - it never accesses anything you don't choose. This notice is here to demonstrate the disclaimer feature: when an app declares one, the installer shows it and requires you to accept before installing.",
+  "icon": { "type": "ti", "value": "ti-folder-search" },
+  "color": "#f0b232",
+  "window": { "w": 640, "h": 520 },
+  "permissions": ["fs.read"],
+  "defaultLang": "en",
+  "langs": ["en"],
+  "entry": "app.html"
+}

@@ -1,0 +1,20 @@
+<div class="tour">
+  <h2>Termal SDK - one button per API</h2>
+  <p class="sub">Click a button, watch the log below. Every SDK call returns a Promise.</p>
+
+  <div class="grid">
+    <button data-act="toast">toast()</button>
+    <button data-act="alert">dialog.alert()</button>
+    <button data-act="confirm">dialog.confirm()</button>
+    <button data-act="prompt">dialog.prompt()</button>
+    <button data-act="menu">menu()</button>
+    <button data-act="clip">clipboard.write()</button>
+    <button data-act="set">storage.set()</button>
+    <button data-act="get">storage.get()</button>
+    <button data-act="title">setTitle()</button>
+    <button data-act="clear">clear log</button>
+  </div>
+
+  <div class="log-h">Log</div>
+  <pre id="log" class="log"></pre>
+</div>

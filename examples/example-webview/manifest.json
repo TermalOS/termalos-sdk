@@ -1,0 +1,12 @@
+{
+  "key": "example-webview",
+  "name": "Web View",
+  "version": "1.0.0",
+  "icon": { "type": "ti", "value": "ti-world-www" },
+  "color": "#4aa3ff",
+  "window": { "w": 960, "h": 680 },
+  "permissions": ["webview"],
+  "defaultLang": "en",
+  "langs": ["en"],
+  "entry": "app.html"
+}

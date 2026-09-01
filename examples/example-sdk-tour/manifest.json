@@ -1,0 +1,12 @@
+{
+  "key": "example-sdk-tour",
+  "name": "SDK Tour",
+  "version": "1.0.0",
+  "icon": { "type": "ti", "value": "ti-compass" },
+  "color": "#c07cff",
+  "window": { "w": 560, "h": 620 },
+  "permissions": ["clipboard", "storage"],
+  "defaultLang": "en",
+  "langs": ["en"],
+  "entry": "app.html"
+}

@@ -1,0 +1,12 @@
+{
+  "key": "example-text-editor",
+  "name": "Text Editor",
+  "version": "1.0.0",
+  "icon": { "type": "ti", "value": "ti-file-text" },
+  "color": "#62d0a3",
+  "window": { "w": 720, "h": 560 },
+  "permissions": ["fs.read", "fs.write", "clipboard", "storage"],
+  "defaultLang": "en",
+  "langs": ["en"],
+  "entry": "app.html"
+}

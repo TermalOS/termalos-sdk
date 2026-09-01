@@ -1,0 +1,12 @@
+{
+  "key": "example-window-options",
+  "name": "Window Options",
+  "version": "1.0.0",
+  "icon": { "type": "ti", "value": "ti-app-window" },
+  "color": "#ff8f3f",
+  "window": { "w": 460, "h": 700, "resizable": true, "maximizable": true, "minimizable": true },
+  "permissions": ["webview"],
+  "defaultLang": "en",
+  "langs": ["en"],
+  "entry": "app.html"
+}

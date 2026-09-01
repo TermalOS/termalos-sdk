@@ -1,0 +1,68 @@
+{
+  "examples": [
+    {
+      "key": "example-files",
+      "name": "File Explorer",
+      "icon": "ti-folder-search",
+      "color": "#f0b232",
+      "desc": "Open a file or folder the user picks, list it, and open items in the desktop.",
+      "files": ["manifest.json", "app.html", "app.css", "app.js"]
+    },
+    {
+      "key": "example-webview",
+      "name": "Web View",
+      "icon": "ti-world-www",
+      "color": "#4aa3ff",
+      "desc": "Embed a website inside your app, and open a full webview window.",
+      "files": ["manifest.json", "app.html", "app.css", "app.js"]
+    },
+    {
+      "key": "example-sdk-tour",
+      "name": "SDK Tour",
+      "icon": "ti-compass",
+      "color": "#c07cff",
+      "desc": "One button per API: toast, dialog, menu, clipboard, storage.",
+      "files": ["manifest.json", "app.html", "app.css", "app.js"]
+    },
+    {
+      "key": "example-text-editor",
+      "name": "Text Editor",
+      "icon": "ti-file-text",
+      "color": "#62d0a3",
+      "desc": "Read, write, list and delete files in the app's sandbox folder.",
+      "files": ["manifest.json", "app.html", "app.css", "app.js"]
+    },
+    {
+      "key": "example-notes",
+      "name": "Notes & Todo",
+      "icon": "ti-checklist",
+      "color": "#febc2e",
+      "desc": "Persist the whole app state with key/value storage.",
+      "files": ["manifest.json", "app.html", "app.css", "app.js"]
+    },
+    {
+      "key": "example-http-client",
+      "name": "HTTP Client",
+      "icon": "ti-api",
+      "color": "#3fb0ff",
+      "desc": "HTTP requests with a local or server network exit.",
+      "files": ["manifest.json", "app.html", "app.css", "app.js"]
+    },
+    {
+      "key": "example-server-widget",
+      "name": "Server Widget",
+      "icon": "ti-server-bolt",
+      "color": "#7ee787",
+      "desc": "Poll a URL from your SSH server, with auto-refresh.",
+      "files": ["manifest.json", "app.html", "app.css", "app.js"]
+    },
+    {
+      "key": "example-window-options",
+      "name": "Window Options",
+      "icon": "ti-app-window",
+      "color": "#ff8f3f",
+      "desc": "Size, maximize, resizable, title - plus a fixed mobile web view.",
+      "files": ["manifest.json", "app.html", "app.css", "app.js"]
+    }
+  ]
+}

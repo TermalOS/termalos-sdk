@@ -1,0 +1,11 @@
+html, body { height: 100%; }
+.wo { padding: 18px; font-family: system-ui, sans-serif; color: #e6edf3; background: #0e1117; min-height: 100vh; box-sizing: border-box; }
+h2 { margin: 0 0 2px; font-size: 18px; }
+.wo-sub { margin: 0 0 14px; color: #9aa4b2; font-size: 13px; }
+.wo-sec { margin: 14px 0 6px; font-size: 11px; text-transform: uppercase; letter-spacing: .07em; color: #7d8794; }
+.wo-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 7px; }
+.wo-grid button { padding: 9px 6px; border: 1px solid #2a323d; border-radius: 8px; background: #1a2029; color: #e6edf3; font-size: 12.5px; cursor: pointer; }
+.wo-grid button:hover { border-color: #ff8f3f; color: #ffcfa6; }
+.wo-primary { grid-column: 1 / -1; background: #ff8f3f !important; color: #241203 !important; border: 0 !important; font-weight: 700; }
+.wo-note { margin-top: 16px; color: #7d8794; font-size: 12px; }
+.wo-note code { color: #ffcfa6; }

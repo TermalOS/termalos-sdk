@@ -1,0 +1,12 @@
+{
+  "key": "example-server-widget",
+  "name": "Server Widget",
+  "version": "1.0.0",
+  "icon": { "type": "ti", "value": "ti-server-bolt" },
+  "color": "#7ee787",
+  "window": { "w": 520, "h": 480 },
+  "permissions": ["net", "storage"],
+  "defaultLang": "en",
+  "langs": ["en"],
+  "entry": "app.html"
+}

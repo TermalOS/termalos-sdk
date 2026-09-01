@@ -1,0 +1,12 @@
+{
+  "key": "example-notes",
+  "name": "Notes & Todo",
+  "version": "1.0.0",
+  "icon": { "type": "ti", "value": "ti-checklist" },
+  "color": "#febc2e",
+  "window": { "w": 460, "h": 560 },
+  "permissions": ["storage"],
+  "defaultLang": "en",
+  "langs": ["en"],
+  "entry": "app.html"
+}

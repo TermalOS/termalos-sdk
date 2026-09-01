@@ -1,0 +1,10 @@
+html, body { height: 100%; }
+.ed { display: flex; flex-direction: column; height: 100vh; background: #0e1117; color: #e6edf3; }
+.ed-bar { display: flex; align-items: center; gap: 6px; padding: 8px 10px; background: #161b22; border-bottom: 1px solid #232a33; }
+.ed-bar button, .ed-bar select { padding: 6px 10px; border: 1px solid #2a323d; border-radius: 7px; background: #1a2029; color: #e6edf3; font-size: 13px; cursor: pointer; }
+.ed-bar button:hover { border-color: #62d0a3; }
+.ed-bar button.danger:hover { border-color: #f85149; color: #ff9d95; }
+.ed-bar select { min-width: 150px; }
+.ed-spacer { flex: 1; }
+.ed-status { color: #7d8794; font-size: 12px; font-family: ui-monospace, Consolas, monospace; }
+.ed-area { flex: 1; width: 100%; box-sizing: border-box; padding: 14px; border: 0; resize: none; background: #06090d; color: #d6dee7; font-family: ui-monospace, Consolas, monospace; font-size: 13.5px; line-height: 1.5; outline: none; }

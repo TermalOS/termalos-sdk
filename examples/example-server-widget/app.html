@@ -1,0 +1,15 @@
+<div class="sw">
+  <div class="sw-head">
+    <div><h2>Server Widget</h2><p class="sw-sub">Polls a URL <b>from your SSH server</b>.</p></div>
+    <span id="sw-dot" class="sw-dot"></span>
+  </div>
+
+  <div class="sw-row">
+    <input id="sw-url" placeholder="http://127.0.0.1/health" spellcheck="false" />
+    <button id="sw-refresh" title="Refresh now">↻</button>
+  </div>
+  <label class="sw-auto"><input type="checkbox" id="sw-auto"> Auto-refresh every 10s</label>
+
+  <div id="sw-status" class="sw-status">idle</div>
+  <pre id="sw-out" class="sw-out"></pre>
+</div>

@@ -1,0 +1,9 @@
+html, body { height: 100%; }
+.tour { padding: 18px; font-family: system-ui, sans-serif; color: #e6edf3; background: #0e1117; min-height: 100vh; box-sizing: border-box; }
+h2 { margin: 0 0 4px; font-size: 18px; }
+.sub { margin: 0 0 16px; color: #9aa4b2; font-size: 13px; }
+.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+.grid button { padding: 10px; border: 1px solid #2a323d; border-radius: 8px; background: #1a2029; color: #e6edf3; font-size: 13px; cursor: pointer; font-family: ui-monospace, Consolas, monospace; }
+.grid button:hover { border-color: #c07cff; color: #d9bcff; }
+.log-h { margin: 16px 0 6px; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: #7d8794; }
+.log { margin: 0; padding: 12px; height: 180px; overflow: auto; background: #06090d; border: 1px solid #1d242d; border-radius: 8px; font-size: 12.5px; line-height: 1.5; white-space: pre-wrap; }

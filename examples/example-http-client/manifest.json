@@ -1,0 +1,12 @@
+{
+  "key": "example-http-client",
+  "name": "HTTP Client",
+  "version": "1.0.0",
+  "icon": { "type": "ti", "value": "ti-api" },
+  "color": "#3fb0ff",
+  "window": { "w": 640, "h": 600 },
+  "permissions": ["net"],
+  "defaultLang": "en",
+  "langs": ["en"],
+  "entry": "app.html"
+}
