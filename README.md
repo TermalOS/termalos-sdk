@@ -7,6 +7,23 @@ ships with the Studio, so you can read, clone and adapt them freely.
 > New to Termal OS? It turns your Linux servers into a real desktop over SSH - agentless,
 > local-first. Download it at **[termalos.com/download](https://termalos.com/download)**.
 
+## See it in action
+
+**Termal Studio** is the in-app builder: write, run and build a mini-app without leaving Termal OS,
+with a live component palette, a manifest editor and translations.
+
+![Termal App Studio - code editor, component palette and console](docs/images/studio.png)
+
+Every example is one self-contained app. **SDK Tour** puts a button on each `Termal.*` API, so you
+can see - and copy - exactly how every call is used:
+
+![SDK Tour - one button per SDK call, with a live log](docs/images/sdk-tour.png)
+
+Apps get real windows, dialogs, storage, clipboard and an embedded browser. **Window Options**
+drives its own window at runtime and opens a fixed, phone-sized web view:
+
+![Window Options - runtime window control and an embedded mobile web view](docs/images/window-options.png)
+
 ## What's in here
 
 | Folder | Contents |
